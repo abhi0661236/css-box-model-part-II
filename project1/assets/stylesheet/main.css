@@ -80,6 +80,11 @@ body {
 	text-align: center;
 }
 
+.des-text {
+	text-align: center;
+	margin-top: 10px 0 20px 0 ;
+}
+
 .main-box {
 	width: 200px;
 	height: 200px;
@@ -125,13 +130,12 @@ body {
 	background-color:violet;	
 }
 
-.second-big-contaner,
+.second-big-container,
 .fourth-big-container {
 	width: 730px;
 	height: 120px;
 	border: 1px solid black;
-	margin-top: 40px;
-	margin-bottom: 50px;
+	margin: 40px 0 50px 60px;
 }
 
 .small-box-ex2,
@@ -148,8 +152,7 @@ body {
 	width: 730px;
 	height: 260px;
 	border: 1px solid black;
-	margin-top: 40px;
-	margin-bottom: 50px;
+	margin: 40px 0 50px 60px;
 }
 
 .small-box1-ex3,
