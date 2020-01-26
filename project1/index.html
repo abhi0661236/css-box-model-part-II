@@ -8,25 +8,56 @@
     <link rel="stylesheet" href="assets/stylesheet/main.css">
 </head>
 <body>
-    <header>
+    <header class="header container">
         <section>
-            <h1>The box model, box-sizing & box-shadow</h1>
+            <h1 class="main-heading">The box model, box-sizing & box-shadow</h1>
         </section>
         <hr />
     </header>
     <main class="container">
-        <section class="exercise1">
-            <h2>Exercise 1<h2>
-            <div>    
-                <!-- 1st box -->
+        <section>
+            <h2 class="exercise-heading">Exercise 1<h2>
+            <div class="main-box"></div>
+            <div class="box-description">
+                <div class="circle content-circle"></div><small class="circle-txt">Content</small>
+                <div class="circle padding-circle"></div><small class="circle-txt">Padding</small>
+                <div class="circle border-circle"></div><small class="circle-txt">Border</small>                  
+                <div class="circle margin-circle"></div><small class="circle-txt">Margin</small>
             </div>
         </section>
         <section>
-            
+            <h2 class="exercise-heading">Exercise 2<h2>
+            <small>no border on these boxes</small>
+            <div class="second-big-container">
+                <div>
+                    <div class="small-box-ex2"></div>
+                    <div class="small-box-ex2"></div>
+                    <div class="small-box-ex2"></div>
+                </div>
+            </div>    
+            <hr />    
         </section>
         <section>
-            
+            <small>1px border on these boxes.</small>
+            <div class="third-big-container">    
+                <div>
+                    <div class="small-box1-ex3"></div>
+                    <div class="small-box2-ex3"></div>
+                    <div class="small-box3-ex3"></div>
+                </div>
+            </div>
+            <hr />
         </section>
+                <small>no border on these boxes</small>
+            <div class="fourth-big-container">    
+                <div>
+                    <div class="small-box-ex4"></div>
+                    <div class="small-box-ex4"></div>
+                    <div class="small-box-ex4"></div>
+                </div>
+            </div>
+    </section>    
+       
     </main>
 </body>
 </html>

@@ -51,14 +51,20 @@ body {
 	line-height: 1.5;
 }
 
-header {
+
+/************* My CSS *************/
+
+.container {
 	width: 900px;
+	margin: 0 auto;
+}
+
+.header {
 	text-align: center;
 	margin-left: 470px;
 }
 
-
-h1 {
+.main-heading {
 	font-size: 40px;
 	text-transform: capitalize;
 	letter-spacing: 3px;
@@ -67,18 +73,107 @@ h1 {
 	font-weight: 700;
 }
 
-.container {
-	width: 800px;
-	margin: 0 auto;
+.exercise-heading {
+	margin-top: 50px;
+	font-size: 32px;
+	font-weight: 400;
+	text-align: center;
 }
 
-
-div {
+.main-box {
 	width: 200px;
 	height: 200px;
-	background-color: aquamarine;
+	background-color: #D9F7D4;
 	border: 10px solid cornflowerblue;
 	outline: 5px solid black;
 	margin-top: 30px;
 	box-shadow: 0 0 0 18px saddlebrown;
+	margin-left: 340px;
+}
+
+.box-description {
+	display: inline-block;
+	margin-left: 250px;
+	margin-top: 30px;
+}
+
+.circle {
+	height: 15px;
+	width: 15px;
+	border-radius: 50%;
+	display: inline-block;
+	margin-left: 12px;
+}
+
+.circle-txt {
+	padding-left: 8px;
+}
+
+.content-circle {
+	background-color: aqua;	
+}
+
+.padding-circle {
+	background-color: chartreuse;	
+}
+
+.border-circle {
+	background-color:crimson;	
+}
+
+.margin-circle {
+	background-color:violet;	
+}
+
+
+
+
+.second-big-contaner,
+.fourth-big-container {
+	width: 730px;
+	height: 120px;
+	border: 1px solid black;
+	margin-top: 40px;
+	margin-bottom: 50px;
+}
+
+.small-box-ex2,
+.small-box-ex4 {
+	box-shadow: border-box;
+	width: 220px;
+	height: 100px;
+	display: inline-block;
+	background-color: cornflowerblue;
+	margin: 10px;	
+}
+
+.third-big-container {
+	width: 730px;
+	height: 260px;
+	border: 1px solid black;
+	margin-top: 40px;
+	margin-bottom: 50px;
+}
+
+.small-box1-ex3,
+.small-box2-ex3 {
+	width: 220px;
+	height: 100px;
+	background-color: cornflowerblue;
+	margin: 10px;	
+	border: 1px solid black;
+	display: inline-block;
+}
+
+.small-box3-ex3 {
+	width: 220px;
+	height: 100px;
+	background-color: cornflowerblue;
+	margin: 10px;
+	border: 1px solid black;
+}
+
+.small-box-ex4 {
+	border: 1px solid black;
+	width: 215px;
 }
